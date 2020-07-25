@@ -1,0 +1,250 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="8837edcd-8431-4d78-b301-c714941cc999" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1eWbftN2lqlzFYGpNb5hchRZfgg" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/homework" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/homework" />
+      <recent name="$PROJECT_DIR$/my_project" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/homework" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Python.mongo_practice">
+    <configuration name="cityAir" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="sparta" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/week03" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/week03/cityAir.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="db_practice" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="sparta" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/week03" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/week03/db_practice.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="hello" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="sparta" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/week03" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/week03/hello.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="mongo_practice" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="sparta" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/week03" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/week03/mongo_practice.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="movie" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="sparta" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/week03" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/week03/movie.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.mongo_practice" />
+        <item itemvalue="Python.movie" />
+        <item itemvalue="Python.db_practice" />
+        <item itemvalue="Python.cityAir" />
+        <item itemvalue="Python.hello" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="8837edcd-8431-4d78-b301-c714941cc999" name="Default Changelist" comment="" />
+      <created>1594440402575</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1594440402575</updated>
+      <workItem from="1594440410974" duration="13000" />
+      <workItem from="1594440642654" duration="1453000" />
+      <workItem from="1594445964439" duration="9725000" />
+      <workItem from="1594519217397" duration="5088000" />
+      <workItem from="1594524693091" duration="1944000" />
+      <workItem from="1594529707322" duration="350000" />
+      <workItem from="1594538492757" duration="54000" />
+      <workItem from="1594539110554" duration="977000" />
+      <workItem from="1594990537060" duration="8419000" />
+      <workItem from="1595001771663" duration="16000" />
+      <workItem from="1595032156427" duration="1087000" />
+      <workItem from="1595033763135" duration="524000" />
+      <workItem from="1595043460976" duration="11004000" />
+      <workItem from="1595121559471" duration="1302000" />
+      <workItem from="1595426316722" duration="8843000" />
+      <workItem from="1595464267345" duration="533000" />
+      <workItem from="1595505694846" duration="12086000" />
+      <workItem from="1595605151374" duration="823000" />
+      <workItem from="1595650727023" duration="8237000" />
+      <workItem from="1595660972816" duration="4267000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="216" y="166" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1595653679310">
+      <screen x="0" y="23" width="1680" height="961" />
+    </state>
+    <state x="216" y="166" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1680.961@0.23.1680.961" timestamp="1595653679310" />
+    <state x="906" y="312" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1595664714509">
+      <screen x="0" y="23" width="1680" height="961" />
+    </state>
+    <state x="906" y="312" key="#com.intellij.fileTypes.FileTypeChooser/0.23.1680.961@0.23.1680.961" timestamp="1595664714509" />
+    <state width="867" height="258" key="GridCell.Tab.0.bottom" timestamp="1595665217128">
+      <screen x="0" y="23" width="1680" height="961" />
+    </state>
+    <state width="867" height="258" key="GridCell.Tab.0.bottom/0.23.1680.961@0.23.1680.961" timestamp="1595665217128" />
+    <state width="867" height="258" key="GridCell.Tab.0.center" timestamp="1595665217127">
+      <screen x="0" y="23" width="1680" height="961" />
+    </state>
+    <state width="867" height="258" key="GridCell.Tab.0.center/0.23.1680.961@0.23.1680.961" timestamp="1595665217127" />
+    <state width="867" height="258" key="GridCell.Tab.0.left" timestamp="1595665217127">
+      <screen x="0" y="23" width="1680" height="961" />
+    </state>
+    <state width="867" height="258" key="GridCell.Tab.0.left/0.23.1680.961@0.23.1680.961" timestamp="1595665217127" />
+    <state width="867" height="258" key="GridCell.Tab.0.right" timestamp="1595665217127">
+      <screen x="0" y="23" width="1680" height="961" />
+    </state>
+    <state width="867" height="258" key="GridCell.Tab.0.right/0.23.1680.961@0.23.1680.961" timestamp="1595665217127" />
+    <state x="588" y="117" key="SettingsEditor" timestamp="1595661981551">
+      <screen x="0" y="23" width="1680" height="961" />
+    </state>
+    <state x="588" y="117" key="SettingsEditor/0.23.1680.961@0.23.1680.961" timestamp="1595661981551" />
+    <state x="206" y="170" width="1210" height="713" key="dock-window-1" timestamp="1595051732841">
+      <screen x="0" y="23" width="1680" height="961" />
+    </state>
+    <state x="206" y="170" width="1210" height="713" key="dock-window-1/0.23.1680.961@0.23.1680.961" timestamp="1595051732841" />
+    <state x="192" y="293" width="1210" height="713" key="dock-window-2" timestamp="1595051732841">
+      <screen x="0" y="23" width="1680" height="961" />
+    </state>
+    <state x="192" y="293" width="1210" height="713" key="dock-window-2/0.23.1680.961@0.23.1680.961" timestamp="1595051732841" />
+    <state x="505" y="234" width="670" height="676" key="search.everywhere.popup" timestamp="1595513698970">
+      <screen x="0" y="23" width="1680" height="961" />
+    </state>
+    <state x="505" y="234" width="670" height="676" key="search.everywhere.popup/0.23.1680.961@0.23.1680.961" timestamp="1595513698970" />
+    <state x="784" y="358" key="vcs.readOnlyHandler.ReadOnlyStatusDialog" timestamp="1595657030802">
+      <screen x="0" y="23" width="1680" height="961" />
+    </state>
+    <state x="784" y="358" key="vcs.readOnlyHandler.ReadOnlyStatusDialog/0.23.1680.961@0.23.1680.961" timestamp="1595657030802" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/sparta$movie.coverage" NAME="movie Coverage Results" MODIFIED="1595664635788" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/week03" />
+    <SUITE FILE_PATH="coverage/sparta$mongo_practice.coverage" NAME="mongo_practice Coverage Results" MODIFIED="1595665216485" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/week03" />
+    <SUITE FILE_PATH="coverage/sparta$cityAir.coverage" NAME="cityAir Coverage Results" MODIFIED="1595658564201" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/week03" />
+    <SUITE FILE_PATH="coverage/sparta$hello.coverage" NAME="hello Coverage Results" MODIFIED="1595657648320" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/week03" />
+    <SUITE FILE_PATH="coverage/sparta$db_practice.coverage" NAME="db_practice Coverage Results" MODIFIED="1595664423563" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/week03" />
+  </component>
+</project>
