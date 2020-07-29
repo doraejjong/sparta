@@ -2,8 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8837edcd-8431-4d78-b301-c714941cc999" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/homework/LJH_Week03_index.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/homework/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/homework/LJH_Week03_index.py" beforeDir="false" afterPath="$PROJECT_DIR$/homework/LJH_Week03_index.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my_project/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/my_project/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my_project/cal.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my_project/tranning_week2.html" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,7 +48,7 @@
       <recent name="$PROJECT_DIR$/homework" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.LJH_Week03_index">
+  <component name="RunManager" selected="Python.LJH_Week03_salty_index">
     <configuration name="LJH_Week03_index" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="sparta" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -67,7 +71,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="cityAir" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="LJH_Week03_salty_index" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="sparta" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -75,12 +79,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/week03" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/homework" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/week03/cityAir.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/homework/LJH_Week03_salty_index.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -157,11 +161,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.LJH_Week03_salty_index" />
         <item itemvalue="Python.LJH_Week03_index" />
         <item itemvalue="Python.mongo_practice" />
         <item itemvalue="Python.movie" />
         <item itemvalue="Python.db_practice" />
-        <item itemvalue="Python.cityAir" />
       </list>
     </recent_temporary>
   </component>
@@ -196,7 +200,8 @@
       <workItem from="1595650727023" duration="8237000" />
       <workItem from="1595660972816" duration="4921000" />
       <workItem from="1595941357292" duration="2000" />
-      <workItem from="1595946295104" duration="215000" />
+      <workItem from="1595946295104" duration="667000" />
+      <workItem from="1596025265728" duration="70000" />
     </task>
     <servers />
   </component>
@@ -212,22 +217,22 @@
       <screen x="0" y="23" width="1680" height="961" />
     </state>
     <state x="906" y="312" key="#com.intellij.fileTypes.FileTypeChooser/0.23.1680.961@0.23.1680.961" timestamp="1595664714509" />
-    <state width="1086" height="258" key="GridCell.Tab.0.bottom" timestamp="1595946498347">
+    <state width="1086" height="258" key="GridCell.Tab.0.bottom" timestamp="1595947297255">
       <screen x="0" y="23" width="1680" height="961" />
     </state>
-    <state width="1086" height="258" key="GridCell.Tab.0.bottom/0.23.1680.961@0.23.1680.961" timestamp="1595946498347" />
-    <state width="1086" height="258" key="GridCell.Tab.0.center" timestamp="1595946498347">
+    <state width="1086" height="258" key="GridCell.Tab.0.bottom/0.23.1680.961@0.23.1680.961" timestamp="1595947297255" />
+    <state width="1086" height="258" key="GridCell.Tab.0.center" timestamp="1595947297254">
       <screen x="0" y="23" width="1680" height="961" />
     </state>
-    <state width="1086" height="258" key="GridCell.Tab.0.center/0.23.1680.961@0.23.1680.961" timestamp="1595946498347" />
-    <state width="1086" height="258" key="GridCell.Tab.0.left" timestamp="1595946498346">
+    <state width="1086" height="258" key="GridCell.Tab.0.center/0.23.1680.961@0.23.1680.961" timestamp="1595947297254" />
+    <state width="1086" height="258" key="GridCell.Tab.0.left" timestamp="1595947297253">
       <screen x="0" y="23" width="1680" height="961" />
     </state>
-    <state width="1086" height="258" key="GridCell.Tab.0.left/0.23.1680.961@0.23.1680.961" timestamp="1595946498346" />
-    <state width="1086" height="258" key="GridCell.Tab.0.right" timestamp="1595946498347">
+    <state width="1086" height="258" key="GridCell.Tab.0.left/0.23.1680.961@0.23.1680.961" timestamp="1595947297253" />
+    <state width="1086" height="258" key="GridCell.Tab.0.right" timestamp="1595947297254">
       <screen x="0" y="23" width="1680" height="961" />
     </state>
-    <state width="1086" height="258" key="GridCell.Tab.0.right/0.23.1680.961@0.23.1680.961" timestamp="1595946498347" />
+    <state width="1086" height="258" key="GridCell.Tab.0.right/0.23.1680.961@0.23.1680.961" timestamp="1595947297254" />
     <state x="588" y="117" key="SettingsEditor" timestamp="1595661981551">
       <screen x="0" y="23" width="1680" height="961" />
     </state>
@@ -255,6 +260,7 @@
     <SUITE FILE_PATH="coverage/sparta$cityAir.coverage" NAME="cityAir Coverage Results" MODIFIED="1595658564201" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/week03" />
     <SUITE FILE_PATH="coverage/sparta$hello.coverage" NAME="hello Coverage Results" MODIFIED="1595657648320" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/week03" />
     <SUITE FILE_PATH="coverage/sparta$db_practice.coverage" NAME="db_practice Coverage Results" MODIFIED="1595664423563" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/week03" />
-    <SUITE FILE_PATH="coverage/sparta$LJH_Week03_index.coverage" NAME="LJH_Week03_index Coverage Results" MODIFIED="1595946498338" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/homework" />
+    <SUITE FILE_PATH="coverage/sparta$LJH_Week03_salty_index.coverage" NAME="LJH_Week03_salty_index Coverage Results" MODIFIED="1596025567479" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/homework" />
+    <SUITE FILE_PATH="coverage/sparta$LJH_Week03_index.coverage" NAME="LJH_Week03_index Coverage Results" MODIFIED="1596025504864" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/homework" />
   </component>
 </project>
