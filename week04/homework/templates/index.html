@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+              integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+              crossorigin="anonymous">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+                integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+                crossorigin="anonymous"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+                integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+                crossorigin="anonymous"></script>
+
+        <title> JORDAN1 chicago</title>
+
+        <link href="https://fonts.googleapis.com/css2?family=Mukta:wght@500&display=swap" rel="stylesheet">
+
+        <style>
+            * {
+                font-family: 'Mukta', sans-serif;
+            }
+
+            .jordan {
+                width: 500px;
+                height: 300px;
+                margin: 0 0 0 20px;
+                background-position: center;
+                background-size: cover;
+                background-image: url("https://cdn.shopify.com/s/files/1/2358/2817/products/Wethenew-Sneakers-France-Air-Jordan-1-Retro-High-Off-White-The-Ten-Chicago-1.png?v=1540814501");
+            }
+
+            .state {
+                font-size: 25px;
+                color: #ff4500;
+
+            }
+
+            .desc {
+                width: 600px;
+                margin-top: 10px;
+                margin-bottom: 20px;
+            }
+
+            .btn {
+                margin: auto;
+                display: block;
+
+            }
+
+            .wrap {
+                padding-top: 40px;
+                padding-bottom: 40px;
+                margin: auto;
+                width: 600px;
+            }
+
+            img {
+                max-width: 200px;
+                display-role: block
+            }
+
+            .second_img {
+                padding-top: 20px;
+            }
+
+            .dollar-info {
+                color: blue;
+            }
+
+            .order {
+                text-align: center;
+            }
+
+            .order-info {
+                margin-top: 50px;
+            }
+        </style>
+        <script>
+            $(document).ready(function () {
+                $("#order-info").html("");
+                showOrder();
+
+                $.ajax({
+                    type: "GET",
+                    url: "https://api.manana.kr/exchange/rate.json",
+                    data: {},
+                    success: function (response) {
+
+                        let exchange_info = response[1]["rate"];
+                        let priceCal_info = response[1]["rate"] * 4300;
+
+                        let dolChange = exchange_info.toLocaleString();
+                        let wonChange = priceCal_info.toLocaleString();
+
+                        $('#exchange').text(dolChange);
+                        $('#price').text(wonChange)
+                    }
+                })
+            })
+
+
+            function orderAlert() {
+                let size = $('#sizeGroup').val();
+                let address = $('#addressGroup').val();
+                let name = $('#nameGroup').val();
+
+
+                if (size == '') {
+                    alert('CHOOSE YOUR SIZE');
+                    $("#sizeGroup").focus();
+                    return;
+                } else if (address == '') {
+                    alert('WRITE YOUR ADDRESS');
+                    $("#addressGroup").focus();
+                    return;
+                } else if (name == '') {
+                    alert('WRITE YOUR NAME');
+                    $("#nameGroup").focus();
+                    return;
+                } else {
+                }
+
+
+                $.ajax({
+                    type: "POST",
+                    url: "/order",
+                    data: {'size_give': size, 'address_give': address, 'name_give': name},
+                    success: function (response) {
+                        if (response["result"] == "success") {
+                            alert(response["msg"]);
+                            window.location.reload();
+                        }
+                    }
+                })
+            }
+
+            function showOrder() {
+                $.ajax({
+                    type: "GET",
+                    url: "/order",
+                    data: {},
+                    success: function (response) {
+                        if (response["result"] == "success") {
+                            let orders = response['all_orders']
+                            for (let i = 0; i < orders.length; i++) {
+                                let size = orders[i]['size'];
+                                let address = orders[i]['address'];
+                                let name = orders[i]['name'];
+
+                                let tempHtml = `<tr>
+                                                 <td>${size}</td>
+                                                 <td>${address}</td>
+                                                 <td>${name}</td>
+                                                 </tr>`
+                                $('#order-list').append(tempHtml);
+                            }
+                        }
+                    }
+                })
+            }
+
+
+        </script>
+
+    </head>
+
+    <body>
+        <div class="wrap">
+            <div class="jordan">
+            </div>
+            <div class="desc">
+                <div class="font">
+                    <h1>JORDAN1 CHICAGO X OFFWHITE </h1>
+                    <p>The Off-White x Air Jordan 1 Retro High OG was one of the most highly anticipated footwear
+                        collaborations
+                        of
+                        2017</p>
+                </div>
+                <div class="dollar-info">
+                    <h5>1/USD = <span id="exchange"></span>/KRW </h5>
+                </div>
+                <p class="state">PRICE : $ 4,300 / ₩ <span id="price"></span></p>
+                <div class="detail">
+                    <img src="https://cdn.shopify.com/s/files/1/0255/9429/8467/products/the-10-air-jordan-1-aa3834-101_3_1000x.jpg?v=1571354921"
+                         align="left">
+                    <div class="second_img"><img
+                            src="https://onepairof.com/wp-content/uploads/2017/11/OFF-WHITE-x-Air-Jordan-1-High-OG-10X-Chicago4.jpg"
+                            align="left"></div>
+                    <img src="https://sneakerbardetroit.com/wp-content/uploads/2017/05/off-white-air-jordan-1-aa3834-101-price-tag-6.jpg"
+                         align="right">
+                </div>
+                <div class="input-group mb-3">
+                    <div class="input-group-prepend">
+                        <button class="btn btn-outline-secondary" type="button">SIZE</button>
+                    </div>
+                    <select class="custom-select" id="sizeGroup">
+                        <option selected value="">--YOUR SIZE--</option>
+                        <option value="260mm">260mm</option>
+                        <option value="265mm">265mm</option>
+                        <option value="270mm">270mm</option>
+                    </select>
+
+                </div>
+                <div class="input-group mb-3">
+                    <div class="input-group-prepend">
+                        <button class="btn btn-outline-secondary" type="button">ADDRESS</button>
+                    </div>
+                    <input type="text" class="form-control" id='addressGroup' placeholder="" aria-label=""
+                           aria-describedby="basic-addon1">
+                </div>
+                <div class="input-group mb-3">
+                    <div class="input-group-prepend">
+                        <button class="btn btn-outline-secondary" type="button">NAME</button>
+                    </div>
+                    <input type="text" class="form-control" id='nameGroup' placeholder="" aria-label=""
+                           aria-describedby="basic-addon1">
+                </div>
+                <div class="order">
+                    <button onclick="orderAlert()" type="button" class="btn btn-primary">ORDER</button>
+                </div>
+                <div class="order-info">
+                <table class="table">
+                    <thead>
+                    <tr>
+                        <th scope="col">SIZE</th>
+                        <th scope="col">ADDRESS</th>
+                        <th scope="col">NAME</th>
+                    </tr>
+                    </thead>
+                    <tbody id="order-list">
+                    </tbody>
+                </table>
+            </div>
+            </div>
+        </div>
+
+    </body>
+</html>
