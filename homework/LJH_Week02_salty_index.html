@@ -34,7 +34,7 @@
 
             .state {
                 font-size: 25px;
-                color: orangered;
+                color: #ff4500;
 
             }
 
@@ -68,6 +68,14 @@
 
             .dollar-info {
                 color: blue;
+            }
+
+            .order {
+                text-align: center;
+            }
+
+            .orders {
+                margin-top: 50px;
             }
         </style>
         <script>
@@ -164,6 +172,26 @@
                 </div>
                 <div class="order">
                     <button onclick="orderAlert()" type="button" class="btn btn-primary">ORDER</button>
+                </div>
+
+                <div class="orders">
+                    <table class="table">
+                        <thead>
+                        <tr>
+                            <th scope="col">SIZE</th>
+                            <th scope="col">ADDRESS</th>
+                            <th scope="col">NAME</th>
+                        </tr>
+                        </thead>
+                        <tbody id="orders-box">
+                        <tr>
+                            <td>260mm</td>
+                            <td>서울</td>
+                            <td>이종현</td>
+                        </tr>
+
+                        </tbody>
+                    </table>
                 </div>
     </body>
 </html>

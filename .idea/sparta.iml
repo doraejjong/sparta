@@ -2,10 +2,16 @@
 <module type="PYTHON_MODULE" version="4">
   <component name="NewModuleRootManager">
     <content url="file://$MODULE_DIR$">
+      <excludeFolder url="file://$MODULE_DIR$/test/venv" />
       <excludeFolder url="file://$MODULE_DIR$/venv" />
       <excludeFolder url="file://$MODULE_DIR$/week03/venv" />
+      <excludeFolder url="file://$MODULE_DIR$/week04/alonememo/venv" />
+      <excludeFolder url="file://$MODULE_DIR$/week04/bookreview/venv" />
+      <excludeFolder url="file://$MODULE_DIR$/week04/homework/venv" />
+      <excludeFolder url="file://$MODULE_DIR$/week04/prac/venv" />
+      <excludeFolder url="file://$MODULE_DIR$/week05/venv" />
     </content>
-    <orderEntry type="jdk" jdkName="Python 3.8 (sparta)" jdkType="Python SDK" />
+    <orderEntry type="jdk" jdkName="Python 3.8 (sparta) (7)" jdkType="Python SDK" />
     <orderEntry type="sourceFolder" forTests="false" />
   </component>
 </module>
