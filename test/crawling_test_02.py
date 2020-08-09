@@ -19,12 +19,12 @@ driver.find_element_by_xpath('//*[@id="_business_36276299"]/div/div/div[1]/span/
 info_table = soup.select('#content > div:nth-child(2) > div > div')
 
 for detail_info in info_table:
-    address = detail_info.select_one('div.list_item.list_item_address > div > ul > li:nth-child(1) > span').text
-    menu = detail_info.select_one('div.list_item.list_item_menu > div > ul').text
+    address = detail_info.select('div.list_item.list_item_address > div > ul > li:nth-child(1) > span').text
+    menu = detail_info.select('div.list_item.list_item_menu > div > ul').text
 
     print(address, menu)
 
-driver.close()
+# driver.close()
 
 
 #content > div:nth-child(2) > div > div
